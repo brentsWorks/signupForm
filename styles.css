@@ -13,12 +13,14 @@ body {
 	display: flex;
 	width: 100vw;
 	height: 100vh;
+	font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .sidebar {
-	width: 37.5%;
+	width: 32.5%;
 	height: 100vh;
-	background-color: lightgreen;
+	background-image: url("images/autumnUnsplash.jpg");
+	background-size: 100% 100%;
 	position: relative;
 }
 
@@ -45,10 +47,26 @@ body {
 .sidebar-logo {
 	height: 100px;
 }
+
+.sidebar-footer {
+	position: absolute;
+	color: white;
+	font-size: 11px;
+	text-align: center;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding-bottom: 0.5rem;
+}
+
+.sidebar-footer a {
+	color: white;
+}
+
 .main-box {
 	display: flex;
 	flex-direction: column;
-	width: 62.5%;
+	width: 67.5%;
 	height: 100vh;
 }
 
