@@ -161,6 +161,6 @@ input:focus {
 	box-shadow: 2px 10px 7px -4px rgb(198, 188, 188);
 }
 
-input:invalid {
+input#pwd:invalid, input#confirmpwd:invalid {
 	border-color: rgb(240, 72, 72)
 }
